@@ -16,7 +16,6 @@ class Filemanagers extends Admin_Controller
     }
     public function index()
     {
-
         $this->render_template('filesystem/index', $this->data);
     }
 
